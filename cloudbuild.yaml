@@ -18,3 +18,7 @@ steps:
     - '--region=${_REGION}'
     - '--platform=managed'
     - '--allow-unauthenticated'
+
+# Add this section to fix the logging error
+options:
+  logging: CLOUD_LOGGING_ONLY
